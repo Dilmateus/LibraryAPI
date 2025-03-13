@@ -1,0 +1,53 @@
+﻿# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+
+# User-specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.sln.docstates
+*.sln.ide
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+/*.vs
+
+# Rider files
+.idea/
+
+# ASP.NET and Entity Framework
+appsettings*.json
+*.db
+*.mdf
+*.ldf
+
+# Entity Framework Migrations
+Migrations/
+
+# Docker
+.dockerignore
+**/Dockerfile
+*/docker-compose
+
+# Logs
+logs/
+*.log
+**/log/
+*/.log
+
+# Node.js (caso tenha front-end com Vue ou React)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Dependencies
+packages/
